@@ -15,10 +15,10 @@ let package = Package(
             dependencies: ["NMapsMap", "NMapsGeometry"]),
         .binaryTarget(
             name: "NMapsMap",
-            path: "FrameWork/NMapsMap/framework/NMapsMap.xcframework"),
+            path: "FrameWork/NMapsMap/NMapsMap.xcframework"),
         .binaryTarget(
             name: "NMapsGeometry",
-            path: "FrameWork/NMapsGeometry/framework/NMapsGeometry.xcframework"),
+            path: "FrameWork/NMapsGeometry/NMapsGeometry.xcframework"),
         .testTarget(
             name: "NMapTests",
             dependencies: ["NMap"])
